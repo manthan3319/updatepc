@@ -1,0 +1,39 @@
+.festival-poster-container {
+    min-width: 1280px;
+    height: 1280px; /* Change height to auto */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.festival-image {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-container {
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    border-radius: 62px 62px 0 0;
+}
+
+.text-container p {
+    margin: 0;
+    word-wrap: break-word;
+    text-align: center;
+    width: 90%; /* Adjusted width */
+    margin: auto; /* Center the text */
+}
+
+
+section{
+    overflow: scroll;
+}

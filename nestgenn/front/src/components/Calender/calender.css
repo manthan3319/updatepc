@@ -1,0 +1,23 @@
+  .react-calendar.custom-calendar {
+      background: #1c1c24;
+      border: none;
+      border-radius: 10px;
+      color: gray;
+  }
+
+  .react-calendar__tile:enabled:hover,
+  .react-calendar__tile:enabled:focus {
+      background-color: #292932;
+      border-radius: 4px;
+  }
+
+  .react-calendar__tile--active {
+      background: #13131a;
+      color: white;
+      border-radius: 4px;
+  }
+  
+  .react-calendar__tile--now {
+      background: #292932;
+      border-radius: 4px;
+  }

@@ -1,0 +1,11 @@
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8); /* Optional: Adds a semi-transparent background */
+  padding: 20px;
+  border-radius: 5px;
+}

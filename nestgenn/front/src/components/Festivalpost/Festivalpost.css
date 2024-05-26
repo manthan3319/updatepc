@@ -1,0 +1,13 @@
+.react-modal-sheet-container.sheet_container{
+    z-index: 2;
+    position: absolute;
+    bottom: -104px !important;
+    right: 77px !important;
+    bottom: 0px;
+    width: 75% !important;
+    background-color: #292932 !important;
+}
+
+.closebtnshett{
+    z-index:9999999 ;
+}

@@ -1,0 +1,21 @@
+.dashboard{
+    min-height: 100vh;
+    background-size: cover !important;
+}
+
+.dashbord-container {
+    position: relative;
+    z-index: 1; /* Ensure the calendar is above the overlay */
+    pointer-events: auto; /* Allow pointer events on the calendar */
+  }
+
+  .app-container {
+    display: flex !important;
+    height: 100vh !important; /* Full viewport height */
+  }
+  
+  .content-container {
+    flex: 1 !important; /* Grow to fill available space */
+    overflow-y: auto !important; /* Enable vertical scrolling if content exceeds viewport height */
+  }
+  

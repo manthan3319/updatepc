@@ -1,0 +1,119 @@
+git course
+
+stup 1:
+--> configuring Git
+		1)git config --global user.name "my-name"
+		2)git config --global user.email "entert email"
+		3)git config --list
+		
+stup 2:
+--> clone & status
+		1)cloning a repository on our local machine
+		  -> git clone  <- some link ->
+		  
+		 2)displays the state of the code
+		  -> git status
+				a)untracked
+					->new files that git doesn't yet track
+				
+				b)modified
+					->changed
+				
+				c)staged
+					->file is ready to be committed
+				
+				d)ubmodified
+					->unchanged
+
+stup 3:
+--> Add & committed	
+	A)Add	
+		->adds new or changed files in your working direcory to the git staging area.
+		command -> git add . (all file add)
+		command -> git add (file name) one file add	
+ 	
+	B) committed (ae local me commit karta he )
+	it is the record of changed
+		->git commit -m "some message"
+		
+stup 4:
+--> push command
+     push - upload local repo content to remote repo
+	 command -> git push origin main
+	 
+	 
+stup 5:
+--> init command
+    init - used to create a new git repo
+	
+	1)git init
+	2)git add .
+	3)git commit -m "some message"
+	4)workspace <- link ->
+	5)git remote -v (to verify remote)
+	6)git branch (to check branch)
+	7)git branch -m main (to rename branch)
+	8)git push origin main  (git push -g origin main )
+	
+	
+	
+--------------------------------- work flow ------------------------------------
+1)gitup repo
+2)clone
+3)add
+4)commit
+5)push
+
+
+-------------------------------- branches ---------------------------------------
+Branch commands
+ 1)git branch (to check branch)
+ 2)git branch -m main (to rename branch)
+ 3)git checkout <- branch name -> (to navigate)
+ 4)git checkout -b <- new baranch name -> (to create new branch)
+ 5)git branch -d <- branch name-> (to delete branch)
+ 
+------------------------------- merging code --------------------------------------
+why1
+  git diff <- branch name-> (to compare commits, branches, files & more)
+  git merge <- branch name -> (to merge 2 branches)
+  
+ why2
+	Pull Request
+	(it lets you tell others about changes you've pushed to a branch in a repository on github.)
+	
+	pull command
+	command - git pull origin main
+	(used to fetch and download content from a remote repo and immediately update the local repo to match that contant)
+	
+
+-------------------------------resolving merge conflicts --------------------------------
+
+
+-->undoing changes
+case 1: staged changes
+		git reset <-file name->
+
+case 2: commited changes (for one commit)
+		git reser HEAD~1
+		
+case 3: Commited changes (for many commits)
+		git reset <- commit hash ->
+		git reset --hard <- commit hash ->
+		
+		
+
+-->Fork
+   a fork is a new repository that shares code and visibility settings with the original "upstream" repositiry
+  
+   fork is a rough copy.
+
+~/.nvm/nvm.sh
+
+npm install pm2 -g
+pm2 start server.js
+pm2 delete <id>
+pm2 stop server.js
+
+
+http://35.154.84.155:7000/web-api-docs/
